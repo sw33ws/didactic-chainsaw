@@ -13,10 +13,10 @@ const userController = {
         User.findOne({_id: req.params.id})
         .select('-__v')
         .populate({
-            plath: 'friends',
+            path: 'friends',
         })
         .populate({
-            plath: 'thoughts',
+            path: 'thoughts',
         })
         .then((users) => {
             if (!users){
