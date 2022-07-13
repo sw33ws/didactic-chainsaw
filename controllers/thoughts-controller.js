@@ -24,7 +24,7 @@ const thoughtsController = {
         })
         .catch((err) => res.status(500).json(err))
     },
-    // creating user
+    // creating thought
 }
 
 module.exports = thoughtsController;
