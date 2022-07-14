@@ -12,7 +12,7 @@ This is my challenge 18 assignment!
 
 ## Installation
 
-```npm install```
+Clone the repo onto your local drive, then open ```gitbash``` and run ```npm install```
 
 ## Usage
 
