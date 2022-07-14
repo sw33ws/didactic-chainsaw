@@ -55,7 +55,7 @@ const thoughtsController = {
             .catch(err => res.json(err));
     },
     // delating thought
-    deleteUser(req, res) {
+    deleteThought(req, res) {
         Thoughts.findByIdAndRemove(
             { _id: req.params.thoughtsdata}
         )
