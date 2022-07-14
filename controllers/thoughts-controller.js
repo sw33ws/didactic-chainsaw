@@ -67,7 +67,8 @@ const thoughtsController = {
             res.json(thoughtsdata);
         })
         .catch(err => res.json(err));
-    }
+    },
+    // creating reaction
 }
 
 module.exports = thoughtsController;
